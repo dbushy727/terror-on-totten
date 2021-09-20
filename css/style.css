@@ -17,11 +17,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .subheading {
-    color: white;
     margin-top: 12rem;
-    font-size: 3rem;
     letter-spacing: 1px;
     font-family: 'Creepster';
+}
+
+.subheading * {
+    color: white;
 }
 
 .hero {
